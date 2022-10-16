@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>BootStrap 5  -  Get Version Number</title>
+  <base href="/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <script src="./js/bootstrap.js"></script>
+  <script>
+    boo = new BaseComponent;
+    // Bootstrap.js start line 809 - veriable VERSION assigned value 5.2.2
+    //  const VERSION = '5.2.2';
+
+    // bootstrap.js start line 860 - a function to get Bootstrap VERSION.
+    // static get VERSION() {
+    //   return VERSION;
+    // }
+    var v = boo.VERSION;
+    // var v = boo.VERSION();
+  </script>
+</head>
+    <body>
+        <h1>Get Version from BOOSTRAP Package</h1>
+        <script>
+
+            window.alert("version=" + v);
+        </script>
+    </body>
+</html>
