@@ -6,26 +6,17 @@
   <base href="/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="./css/bootstrap.css">
-  <script src="./js/bootstrap.js"></script>
-  <script>
-    boo = new BaseComponent;
-    // Bootstrap.js start line 809 - veriable VERSION assigned value 5.2.2
-    //  const VERSION = '5.2.2';
-
-    // bootstrap.js start line 860 - a function to get Bootstrap VERSION.
-    // static get VERSION() {
-    //   return VERSION;
-    // }
-    var v = boo.VERSION;
-    // var v = boo.VERSION();
-  </script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="./css/bootstrap.css"> -->
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <!-- <script src="./js/bootstrap.js"></script> -->
 </head>
     <body>
-        <h1>Get Version from BOOTSTRAP 5.2.2</h1>
+        <h1>Get Version from BOOTSTRAP</h1>
         <script>
-
-            window.alert("version=" + v);
+            let x = bootstrap.Tooltip.VERSION;
+            document.write("<h4>The version is " + x + "<//h4>");
         </script>
     </body>
 </html>
